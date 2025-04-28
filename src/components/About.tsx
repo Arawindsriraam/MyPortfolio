@@ -42,7 +42,7 @@ const About = () => {
   };
 
   return (
-    <section id="about" className="py-24 bg-muted/30">
+    <section id="about" className="py-5 bg-muted/30">
       <div className="section-container">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 title-underline">About Me</h2>

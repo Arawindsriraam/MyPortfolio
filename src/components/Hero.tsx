@@ -118,27 +118,17 @@ const Hero = () => {
             </Avatar>
           </div>
                    
-          <p className="text-lg md:text-xl text-muted-foreground  max-w-2xl mx-auto animate-fade-in" 
+          <p className="text-lg md:text-xl text-muted-foreground  max-w-2xl mx-auto animate-fade-in mb-4" 
              style={{ animationDelay: '1s', fontWeight:500 }}>
       When life gives you JavaScript errors,
       console.log  your feelings and move on
           </p>
 
-          <p className="text-portfolio-primary font-medium animate-fade-in" 
+          <p className="text-portfolio-primary font-medium animate-fade-in mb-4" 
              style={{ animationDelay: '0.2s', fontSize:'20px' }}>
           Hey there! Explore my journey in full-stack development – <b><i>I'm Arawind, your future tech partner. </i></b>
           </p>
-          
-          <h1 className="text-4xl  font-bold ">
-            <div className="bg-gradient-primary text-transparent bg-clip-text animate-gradient-shift">
-              <span className="inline-block animate-fade-in hover:scale-110 transition-transform duration-300" 
-                    style={{ animationDelay: '0.4s' }}>Full</span>{" "}
-              <span className="inline-block animate-fade-in hover:scale-110 transition-transform duration-300" 
-                    style={{ animationDelay: '0.6s' }}>Stack</span>{" "}
-              <span className="inline-block animate-fade-in hover:scale-110 transition-transform duration-300" 
-                    style={{ animationDelay: '0.8s' }}>Developer</span>
-            </div>
-          </h1>
+        
           
           <div className="h-1 w-24 mx-auto bg-gradient-primary rounded-full  animate-pulse-glow"></div>
           
