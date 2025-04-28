@@ -173,12 +173,7 @@ const Hero = () => {
       </div>
       
       {/* Scroll indicator with enhanced animation */}
-      <div className="transform -translate-x-1/2 animate-bounce hover:animate-float transition-all duration-300" style={{position:'absolute', bottom:'0px'}}>
-        <a href="#about" className="flex flex-col items-center text-muted-foreground hover:text-primary transition-colors group">
-          <span className="text-sm mb-2 group-hover:scale-110 transition-transform duration-300">Scroll Down</span>
-          <ArrowDown size={20} className="group-hover:translate-y-1 transition-transform duration-300" />
-        </a>
-      </div>
+   
     </section>
   );
 };
