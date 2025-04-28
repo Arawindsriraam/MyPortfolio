@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Phone, Mail, MapPin, Send, Linkedin, Github, Twitter } from 'lucide-react';
+import { Phone, Mail, MapPin, Send, Linkedin, Github, Twitter, Instagram } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -49,7 +49,7 @@ const Contact = () => {
       icon: <Phone size={20} className="text-portfolio-primary" />,
       title: "Phone",
       details: "+91 790407 9957",
-      link: "tel:+12345678910"
+      link: "tel:+91 790407 9957"
     },
     {
       icon: <Mail size={20} className="text-portfolio-primary" />,
@@ -70,6 +70,21 @@ const Contact = () => {
       icon: <Linkedin size={20} />,
       url: "https://www.linkedin.com/in/arawind-s-399268234",
       label: "LinkedIn"
+    },
+    {
+      icon: <Mail size={20} />,
+      url: "mailto:raamarawind555@gmail.com",
+      label: "Email"
+    },
+    {
+      icon: <Phone size={20} />, // Phone icon for calling
+      url: "tel:+917904079957", // Call the number when clicked
+      label: "Call"
+    },
+    {
+      icon: <Instagram size={20} />, // Instagram icon for Instagram
+      url: "https://www.instagram.com/arawind___/", // Replace with your actual Instagram URL
+      label: "Instagram"
     },
   ];
 

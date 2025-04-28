@@ -11,9 +11,6 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <h3 className="text-2xl font-bold heading-gradient mb-2">Thank you for visiting!</h3>
-            <p className="text-muted-foreground">
-              Building amazing web experiences.
-            </p>
           </div>
           
           <div className="flex flex-col items-center md:items-end">

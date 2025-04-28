@@ -161,13 +161,20 @@ const Hero = () => {
               View Portfolio
             </Button>
             <Button 
-              size="lg" 
-              variant="outline" 
-              className="group hover:scale-105 transition-all duration-300 hover:shadow-lg"
-            >
-              Contact Me
-              <span className="inline-block transition-transform group-hover:translate-x-1 ml-2">→</span>
-            </Button>
+            size="lg" 
+            variant="outline" 
+            className="group hover:scale-105 transition-all duration-300 hover:shadow-lg"
+            onClick={() => {
+              const contactSection = document.getElementById('contact');
+              if (contactSection) {
+                contactSection.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}
+          >
+            Contact Me
+            <span className="inline-block transition-transform group-hover:translate-x-1 ml-2">→</span>
+          </Button>
+
           </div>
         </div>
       </div>
