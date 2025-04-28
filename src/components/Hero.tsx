@@ -108,28 +108,28 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center">
           {/* Profile Photo with floating animation */}
           <div className="mb-6 flex justify-center animate-float">
-            <Avatar className="w-32 h-32 md:w-48 md:h-48 border-4 border-portfolio-primary shadow-lg transition-transform hover:scale-105 duration-300 flex flex-col justify-start">
+            <Avatar className="w-32 h-32 md:w-48 md:h-48 border-4 border-portfolio-primary shadow-lg transition-transform hover:scale-105 duration-300 flex flex-col justify-start" style={{marginTop:'70px'}}>
               <AvatarImage 
                 src={img1}
                 alt="Full Stack Developer Profile"
                 className="object-cover"
               />
-              <AvatarFallback>FS</AvatarFallback>
+              <AvatarFallback>Arawind</AvatarFallback>
             </Avatar>
           </div>
                    
-          <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto animate-fade-in" 
+          <p className="text-lg md:text-xl text-muted-foreground  max-w-2xl mx-auto animate-fade-in" 
              style={{ animationDelay: '1s', fontWeight:500 }}>
       When life gives you JavaScript errors,
       console.log  your feelings and move on
           </p>
 
-          <p className="text-portfolio-primary font-medium mb-4 animate-fade-in" 
+          <p className="text-portfolio-primary font-medium animate-fade-in" 
              style={{ animationDelay: '0.2s', fontSize:'20px' }}>
           Hey there! Explore my journey in full-stack development – <b><i>I'm Arawind, your future tech partner. </i></b>
           </p>
           
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">
+          <h1 className="text-4xl  font-bold ">
             <div className="bg-gradient-primary text-transparent bg-clip-text animate-gradient-shift">
               <span className="inline-block animate-fade-in hover:scale-110 transition-transform duration-300" 
                     style={{ animationDelay: '0.4s' }}>Full</span>{" "}
@@ -140,9 +140,9 @@ const Hero = () => {
             </div>
           </h1>
           
-          <div className="h-1 w-24 mx-auto bg-gradient-primary rounded-full mb-8 animate-pulse-glow"></div>
+          <div className="h-1 w-24 mx-auto bg-gradient-primary rounded-full  animate-pulse-glow"></div>
           
-          <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto animate-fade-in" 
+          <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto animate-fade-in mt-4" 
              style={{ animationDelay: '1s' }}>
            Passionate Full Stack Developer with expertise in both front-
           end and back-end technologies. Eager to leverage my skills
@@ -173,7 +173,7 @@ const Hero = () => {
       </div>
       
       {/* Scroll indicator with enhanced animation */}
-      <div className="transform -translate-x-1/2 animate-bounce hover:animate-float transition-all duration-300" style={{position:'absolute', bottom:'-5px'}}>
+      <div className="transform -translate-x-1/2 animate-bounce hover:animate-float transition-all duration-300" style={{position:'absolute', bottom:'0px'}}>
         <a href="#about" className="flex flex-col items-center text-muted-foreground hover:text-primary transition-colors group">
           <span className="text-sm mb-2 group-hover:scale-110 transition-transform duration-300">Scroll Down</span>
           <ArrowDown size={20} className="group-hover:translate-y-1 transition-transform duration-300" />
